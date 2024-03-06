@@ -26,7 +26,7 @@ const userSchme = mongoose.Schema({
     photo:{
         type: String,
         required: [true , "Please Add Photo"],
-        default: "https://imgur.com/7ItGocW",
+        default: "https://picsum.photos/400/400",
     },
     phone:{
         type: String,
